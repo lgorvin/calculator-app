@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 body {
-  background-color: hsl(222, 26%, 31%);
+  /* background-color: hsl(222, 26%, 31%); */
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -31,5 +31,105 @@ body {
   border-radius: 50%;
 }
 
+.slider2 {
+  -webkit-appearance: none;
+  width: 60px;
+  height: 20px;
+  background: hsl(0, 5%, 81%);
+  outline: none;
+  border: 5px solid hsl(0, 5%, 81%);
+  border-radius: 25px;
+}
 
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: hsl(6, 63%, 50%);
+  cursor: pointer;
+  border: 5px solid hsl(6, 63%, 50%);
+  border-radius: 50%;
+}
+
+:root {
+  --themeonescreen: hsl(224, 36%, 15%);
+  --themeonekeypad: hsl(223, 31%, 20%);
+  --themeonekeybg:  hsl(225, 21%, 49%);
+  --themeonekeyshadow: hsl(224, 28%, 35%);
+  --themeonekeybg2:  hsl(6, 63%, 50%);
+  --themeonekeyshadow2: hsl(6, 70%, 34%);
+  --themeonekeybg3:  hsl(30, 25%, 89%);
+  --themeonekeyshadow3: hsl(28, 16%, 65%);
+  --themeonetext: hsl(221, 14%, 31%);
+  --themetwoscreen: hsl(0, 0%, 93%);
+  --themetwokeypad: hsl(0, 5%, 81%);
+  --themetwokeybg:  hsl(185, 42%, 37%);
+  --themetwokeyshadow: hsl(185, 58%, 25%);
+  --themetwokeybg2:  hsl(25, 98%, 40%);
+  --themetwokeyshadow2: hsl(25, 99%, 27%);
+  --themetwokeybg3:  hsl(45, 7%, 89%);
+  --themetwokeyshadow3: hsl(35, 11%, 61%);
+  --themetwotext: hsl(60, 10%, 19%);
+
+}
+
+.themeonescreen {
+  background-color: var(--themeonescreen);
+}
+
+.themeonekeypad {
+  background-color: var(--themeonekeypad);
+}
+
+.themeonekeybg {
+  background-color: var(--themeonekeybg);
+  box-shadow: 0px 4px var(--themeonekeyshadow);
+}
+
+.themeonekeybg2 {
+  background-color: var(--themeonekeybg2);
+  box-shadow: 0px 4px var(--themeonekeyshadow2);
+}
+
+
+.themeonekeybg3 {
+  background-color: var(--themeonekeybg3);
+  box-shadow: 0px 4px var(--themeonekeyshadow3);
+  color: var(--themeonetext);
+}
+
+.themeonekeytext {
+  color: var(--themeonetext);
+}
+
+
+.themetwoscreen {
+  background-color: var(--themetwoscreen);
+}
+
+.themetwokeypad {
+  background-color: var(--themetwokeypad);
+}
+
+.themetwokeybg {
+  background-color: var(--themetwokeybg);
+  box-shadow: 0px 4px var(--themetwokeyshadow);
+}
+
+.themetwokeybg2 {
+  background-color: var(--themetwokeybg2);
+  box-shadow: 0px 4px var(--themetwokeyshadow2);
+}
+
+
+.themetwokeybg3 {
+  background-color: var(--themetwokeybg3);
+  box-shadow: 0px 4px var(--themetwokeyshadow3);
+  color: var(--themetwotext);
+}
+
+.themetwokeytext {
+  color: var(--themetwotext);
+}
 
