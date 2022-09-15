@@ -20,9 +20,6 @@ const ThemeThree = () => {
       setResult(eval(calc + value).toString());
     }
   };
-  // const handleClick = (e) => {
-  //   setCalcnum(e.target.value);
-  // };
 
   const calculate = () => {
     setCalc(eval(calc).toString());

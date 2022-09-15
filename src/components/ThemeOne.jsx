@@ -20,9 +20,6 @@ const ThemeOne = () => {
       setResult(eval(calc + value).toString());
     }
   };
-  // const handleClick = (e) => {
-  //   setCalcnum(e.target.value);
-  // };
 
   const calculate = () => {
     setCalc(eval(calc).toString());
@@ -186,36 +183,3 @@ const ThemeOne = () => {
 };
 
 export default ThemeOne;
-
-{
-  /* <button className="px-[48px] py-5 mt-6 mr-6 bg-rose-300 rounded-lg">
-              4
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              5
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              6
-            </button>
-            <button className="px-[48px] py-5 bg-rose-300 rounded-lg">+</button>
-            <button className="px-[48px] py-5 mt-6 mr-6 bg-rose-300 rounded-lg">
-              1
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              2
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              3
-            </button>
-            <button className="px-[48px] py-5 bg-rose-300 rounded-lg">-</button>
-            <button className="px-[48px] py-5 mt-6 mr-6 bg-rose-300 rounded-lg">
-              .
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              0
-            </button>
-            <button className="px-[48px] py-5 mr-6 bg-rose-300 rounded-lg">
-              /
-            </button>
-            <button className="px-[48px] py-5 bg-rose-300 rounded-lg">X</button> */
-}
