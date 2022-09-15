@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 body {
-  /* background-color: hsl(222, 26%, 31%); */
+  overflow: hidden;
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -52,7 +52,29 @@ body {
   border-radius: 50%;
 }
 
+.slider3 {
+  -webkit-appearance: none;
+  width: 60px;
+  height: 20px;
+  background: hsl(268, 71%, 12%);
+  outline: none;
+  border: 5px solid hsl(268, 71%, 12%);
+  border-radius: 25px;
+}
+
+.slider3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: hsl(176, 100%, 44%);
+  cursor: pointer;
+  border: 5px solid hsl(176, 100%, 44%);
+  border-radius: 50%;
+}
+
 :root {
+  --themeonemain:  hsl(222, 26%, 31%);
   --themeonescreen: hsl(224, 36%, 15%);
   --themeonekeypad: hsl(223, 31%, 20%);
   --themeonekeybg:  hsl(225, 21%, 49%);
@@ -74,8 +96,16 @@ body {
 
 }
 
+.themeonemainbg {
+  background-color: hsl(222, 26%, 31%);
+}
+
+.t1screen {
+  background-color: hsl(222, 26%, 31%);
+}
+
 .themeonescreen {
-  background-color: var(--themeonescreen);
+  background-color: hsl(224, 36%, 15%);;
 }
 
 .themeonekeypad {
@@ -103,6 +133,10 @@ body {
   color: var(--themeonetext);
 }
 
+
+.themetwomainbg {
+  background-color: hsl(0, 0%, 90%);
+}
 
 .themetwoscreen {
   background-color: var(--themetwoscreen);
@@ -132,4 +166,39 @@ body {
 .themetwokeytext {
   color: var(--themetwotext);
 }
+
+
+.themethreemainbg {
+  background-color: hsl(268, 75%, 9%);
+}
+
+.themethreescreen {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.themethreekeypad {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.themethreekeybg {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0px 4px hsl(285, 91%, 52%);
+}
+
+.themethreekeybg2 {
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0px 4px hsl(177, 92%, 70%);
+}
+
+
+.themethreekeybg3 {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0px 4px hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+
+.themethreekeytext {
+  color: hsl(52, 100%, 62%);
+}
+
 
